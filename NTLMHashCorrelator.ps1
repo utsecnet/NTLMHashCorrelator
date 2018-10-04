@@ -17,7 +17,7 @@
 
 .REQUIREMENTS
     - On your domain controller, temporarily disable your AV Active Protection
-    - Copy fgdump to the domain controller and run /release/fgdump.exse as administrator
+    - Copy fgdump to the domain controller and run /release/fgdump.exe as administrator
     - Copy the hash dump to your machine
     - You must have a directory structure as dictated by the variable below: $directory
     - You must copy the fgdump password hash file into this directory
@@ -25,7 +25,7 @@
               Verify the name of the dump file matches the variable $hashDump below
 
 .NOTES
-    NAME: userPasswordHashAlignmentTool.ps1
+    NAME: NTLMHashCorrelator.ps1
     AUTHOR: Rich Johnson
     EMAIL: rjohnson@upwell.com
     Change Log:
