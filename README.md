@@ -25,5 +25,5 @@ The script will then create **finishedFile.csv** which will have a table contain
 ## Things to be aware of
 
 1. Shift + Delete the fgdump directory (permanent delete) on the Domain Controller and re-enable Antivirus
-2. If you want to hold on to the resulting cracked files and even the dump files, it would be smart to encrypt the files on disk, even if you have BitLocker enabled. I highly recommend AxCrypt 1.7 which allows you to right-click any file or directory and encrypt with a key or passcode.
+2. If you want to hold on to the resulting cracked files and even the dump files, it would be wise to encrypt the files on disk, even if you have BitLocker enabled. I highly recommend AxCrypt 1.7 which allows you to right-click any file or directory and encrypt with a key or passcode.
 3. Large amounts of sensitive data will be stored in your clipboard for a short time while you paste the hashes into the hash crack website. While the powershell script does clear the clipboard, you should be aware that running this tool on a less than trusted machine could put your credentials at risk.
