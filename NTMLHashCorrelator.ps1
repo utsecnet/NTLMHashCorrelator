@@ -114,6 +114,9 @@ if (!(Test-Path $crackedFile)) {
     exit
 }
 
+# Clear the contents of the clipboard
+Set-Clipboard -Value $null
+
 # Manually save the cracked file before continuing!
 # Create an object from the crackedFile for futher processing
 $file2 = Get-Content $crackedFile
