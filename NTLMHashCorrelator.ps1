@@ -25,7 +25,7 @@
               Verify the name of the dump file matches the variable $hashDump below
 
 .NOTES
-    NAME: NTLMHashCorrelator.ps1.ps1
+    NAME: userPasswordHashAlignmentTool.ps1
     AUTHOR: Rich Johnson
     EMAIL: rjohnson@upwell.com
     Change Log:

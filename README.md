@@ -1,4 +1,4 @@
-# NTMLHashCorrelator
+# NTLMHashCorrelator
 
 ## How do I use this script?
 
