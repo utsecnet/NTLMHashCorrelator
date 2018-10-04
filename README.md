@@ -9,7 +9,9 @@
 5. Run the **NTMLHashCorrelator.ps1** script
 
 The script then creates two files in the Hashcrack directory:
+
 **hashFile.txt**: A cleaned up copy of the .pwdump file that includes only the username and their respective hash.  Will be used to correlate the resulted cracked password to the username.
+
 **hashesForCracking.txt**: A cleaned up copy of the hashFile.txt that only includes the hashes.  Used to paste into our online crack tool which is used in the next step.
 
 Once these files are completely generated (may take up to a minute), the script will copy the contents of the hashesForCracking.txt file to your clipboard and open http://finder.insidepro.team/, an online tool I have found useful in cracking large amounts of hashes at once.  It will also open a message box with the next steps needed to finish the process.
