@@ -2,7 +2,7 @@
 
 ## How do I use this script?
 
-1. Download and extract fgdump to your Domain Controller.  You will need to temporarily disable Antivirus.
+1. Download and extract [fgdump](foofus.net/fizzgig/fgdump/fgdump-usage.htm) to your Domain Controller.  You will need to temporarily disable Antivirus.
 2. Navigate to the **..\fgdump-#.#.#\Release** directory, and run **fgdump.exe as administrator**.
 3. Create a directory structure on your machine like: **C:\Users\yourAccount\Documents\Hashcrack**
 4. Copy the **127.0.0.1.pwdump** file fgdump creates to the Hashcrack directory
