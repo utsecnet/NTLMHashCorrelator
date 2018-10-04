@@ -14,7 +14,7 @@ The script then creates two files in the Hashcrack directory:
 
 **hashesForCracking.txt**: A cleaned up copy of the hashFile.txt that only includes the hashes.  Used to paste into our online crack tool which is used in the next step.
 
-Once these files are completely generated (may take up to a minute), the script will copy the contents of the hashesForCracking.txt file to your clipboard and open http://finder.insidepro.team/, an online tool I have found useful in cracking large amounts of hashes at once.  It will also open a message box with the next steps needed to finish the process.
+Once these files are completely generated, the script will copy the contents of the hashesForCracking.txt file to your clipboard and open http://finder.insidepro.team/, an online tool I have found useful in cracking large amounts of hashes at once.  It will also open a message box with the next steps needed to finish the process.
 
 6. Paste (ctrl+v) into the hashes textbox on the website
 7. Copy the resulting cracked hashes and passwords into a new file in the Hashcrack directory called **crackedFile.txt**.
