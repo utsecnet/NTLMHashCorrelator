@@ -105,7 +105,7 @@ if (test-path $hashDump) {
 cat $hashesForCracking | clip
 
 # Open the URL to manually paste all the hashes in
-Start "http://finder.insidepro.com/"
+Start "http://finder.insidepro.team/"
 
 # Display a message about pasting the hashes
 [System.Windows.MessageBox]::Show("We have copied the hashes to your clipboard.  `n`nSimply paste them into the Hash Finder web tool that should open in a browser.  `n`nIf Hash Finder successfully cracks any hashes, paste the results into $directory\crackedFile.txt and save the file.`n`nOnly when this is done, press OK to continue.",'Paste your hashes','OK','Information')
