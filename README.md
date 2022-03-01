@@ -2,11 +2,12 @@
 
 ## How do I use this script?
 
-1. Download and extract [fgdump](foofus.net/fizzgig/fgdump/fgdump-usage.htm) to your Domain Controller.  You will need to temporarily disable Antivirus.
+1. Clone one of your DCs, keep it offline
+2. Download and extract [fgdump](foofus.net/fizzgig/fgdump/fgdump-usage.htm) to your cloned Domain Controller.  You will need to disable Antivirus.
 2. Navigate to the **..\fgdump-#.#.#\Release** directory, and run **fgdump.exe as administrator**.
 3. Create a directory structure on your machine like: **C:\Users\yourAccount\Documents\Hashcrack**
 4. Copy the **127.0.0.1.pwdump** file fgdump creates to the Hashcrack directory
-5. Run the **NTMLHashCorrelator.ps1** script
+5. Run the **NTMLHashCorrelator.ps1** script and follow instructions
 
 The script then creates two files in the Hashcrack directory:
 
